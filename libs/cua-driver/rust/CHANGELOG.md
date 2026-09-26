@@ -6,6 +6,19 @@
 
 * **cua-driver:** deliver X11 key-down before the tap delay and finish background keyboard delivery before closing the input connection.
 
+## [0.29.2](https://github.com/trycua/cua/compare/cua-driver-rs-v0.29.1...cua-driver-rs-v0.29.2) (2026-09-26)
+
+
+### Bug Fixes
+
+* **cua-driver:** allow reinstalling the trusted extension catalog after removal ([#4212](https://github.com/trycua/cua/issues/4212)) ([0263cfe](https://github.com/trycua/cua/commit/0263cfebab9ebf5213adc97133294449aeb49e02)), closes [#4211](https://github.com/trycua/cua/issues/4211)
+* **cua-driver:** attribute X11 windows without _NET_WM_PID via X-Resource ([#4214](https://github.com/trycua/cua/issues/4214)) ([a02df78](https://github.com/trycua/cua/commit/a02df78c40b3d2b8e8f44e1cc4a67d70c6efdef3)), closes [#3894](https://github.com/trycua/cua/issues/3894)
+* **cua-driver:** explain elevated-token refusal of Windows isolated browsers ([#4178](https://github.com/trycua/cua/issues/4178)) ([ec96f96](https://github.com/trycua/cua/commit/ec96f96b48ed337ea917fc333c6bf7bdd040934c)), closes [#4177](https://github.com/trycua/cua/issues/4177)
+* **cua-driver:** move the pointer for macOS foreground pixel clicks ([#4208](https://github.com/trycua/cua/issues/4208)) ([f0da502](https://github.com/trycua/cua/commit/f0da502ac3f477253dd08e87976a39cca274fd16)), closes [#4207](https://github.com/trycua/cua/issues/4207)
+* **cua-driver:** polish CLI pipe, extension, schema, and output-path UX ([#4210](https://github.com/trycua/cua/issues/4210)) ([70b87b4](https://github.com/trycua/cua/commit/70b87b4f26d8bb217f32b4942a677024dbc2b651)), closes [#4209](https://github.com/trycua/cua/issues/4209)
+* **cua-driver:** refuse Linux background clicks that only hit a Chromium frame ([#4188](https://github.com/trycua/cua/issues/4188)) ([7ee9b37](https://github.com/trycua/cua/commit/7ee9b37edc4ebc5f7f606682ae2699d1baa5d397))
+* **cua-driver:** resolve the perception extension per parse on a live runtime ([#4197](https://github.com/trycua/cua/issues/4197)) ([e8777e6](https://github.com/trycua/cua/commit/e8777e6d6a997476cc254146ade31f772c56ec48)), closes [#4193](https://github.com/trycua/cua/issues/4193)
+
 ## [0.29.1](https://github.com/trycua/cua/compare/cua-driver-rs-v0.29.0...cua-driver-rs-v0.29.1) (2026-09-25)
 
 
