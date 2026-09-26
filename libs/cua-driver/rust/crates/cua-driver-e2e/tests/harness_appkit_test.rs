@@ -505,7 +505,10 @@ fn harness_appkit_smoke() {
 
             assert!(
                 !looks_empty(snap.tree_text()),
-                "required AppKit AX tree is empty"
+                "required AppKit AX tree is empty; is_error={} text={:?} structured={}",
+                snap.is_error(),
+                snap.text(),
+                snap.structured()
             );
 
             let text = snap.tree_text();
